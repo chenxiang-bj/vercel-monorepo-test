@@ -10,7 +10,7 @@ function App() {
         <div className="ai-icon">🤖</div>
         <h1 className="ai-title">AI Assistant</h1>
         <p className="ai-subtitle">
-          体验下一代人工智能助手的强大功能
+          体验下一代人工智能助手的强大功能11111
         </p>
         <p className="ai-description">
           我们的 AI 助手能够帮助您解决各种问题，提供智能化的解决方案，
