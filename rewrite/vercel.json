@@ -1,12 +1,20 @@
 {
     "rewrites": [
         {
+            "source": "/website",
+            "destination": "https://vercel-monorepo-test-website.vercel.app/"
+        },
+        {
+            "source": "/website/:match*",
+            "destination": "https://vercel-monorepo-test-website.vercel.app/:match*"
+        },
+        {
             "source": "/",
             "destination": "https://vercel-monorepo-test-web-nine.vercel.app/"
         },
         {
-            "source": "/about",
-            "destination": "https://vercel-monorepo-test-website.vercel.app/about"
+            "source": "/:match*",
+            "destination": "https://vercel-monorepo-test-web-nine.vercel.app/:match*"
         }
     ]
 }
