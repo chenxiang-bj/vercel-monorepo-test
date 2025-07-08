@@ -1,0 +1,35 @@
+{
+  "name": "vercel-test",
+  "version": "1.0.0",
+  "description": "A monorepo with React and Next.js projects",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter web dev\" \"pnpm --filter website dev\"",
+    "build": "pnpm --filter web build && pnpm --filter website build",
+    "test": "pnpm --filter web test && pnpm --filter website test",
+    "test:run": "pnpm --filter web test:run && pnpm --filter website test:run",
+    "test:web": "pnpm --filter web test:run",
+    "test:website": "pnpm --filter website test:run",
+    "lint": "pnpm --filter web lint && pnpm --filter website lint",
+    "clean": "pnpm --filter web clean && pnpm --filter website clean",
+    "install-all": "pnpm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "monorepo",
+    "react",
+    "nextjs",
+    "typescript",
+    "vitest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+} 
