@@ -13,8 +13,12 @@
             "destination": "https://vercel-monorepo-test-web-nine.vercel.app/"
         },
         {
+            "source": "/blog",
+            "destination": "https://focused-face-149347.framer.app/blog"
+        },
+        {
             "source": "/:match*",
             "destination": "https://vercel-monorepo-test-web-nine.vercel.app/:match*"
-        }
+        }        
     ]
 }
