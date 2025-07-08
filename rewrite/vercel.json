@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "https://vercel-monorepo-test-web-nine.vercel.app/"
+        },
+        {
+            "source": "/about",
+            "destination": "https://vercel-monorepo-test-website.vercel.app/about"
+        }
+    ]
+}
